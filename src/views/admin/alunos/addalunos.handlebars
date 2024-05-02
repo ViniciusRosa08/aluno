@@ -1,0 +1,22 @@
+<main>
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <h3> Novo aluno: </h3>
+            <div class="card">
+                <div class="card-body">
+                    <form action="/rota_alunos/alunos/nova" method="POST">
+                        <label for="nome">Nome: </label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite o nome do aluno"
+                            class="form-control">
+                        <br>
+                        <label for="descricao">Idade: </label>
+                        <input type="double" id="idade" name="idade" placeholder="Digite a idade do aluno"
+                            class="formcontrol">
+                        <br>
+                        <button type="submit" class="btn btn-success">Cadastrar aluno</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
